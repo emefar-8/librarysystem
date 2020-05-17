@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Label layoutX="20.0" layoutY="20.0" text="Träfflista">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listview" layoutX="14.0" layoutY="57.0" prefHeight="193.0" prefWidth="569.0" />
+      <Button layoutX="20.0" layoutY="261.0" mnemonicParsing="false" onAction="#BackToUniversalSearch" text="Ny söknig" />
+      <Button layoutX="476.0" layoutY="261.0" mnemonicParsing="false" onAction="#TransferItems" text="Låna/reservera" />
+   </children>
+</AnchorPane>
